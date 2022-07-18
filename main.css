@@ -1,0 +1,34 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 103px 26px 82px;
+  background-color: #2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+.header > .nav{
+    display: flex;
+    list-style: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.header > .nav > li{
+    padding: 0px 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FDFDFD;
+}
+a{
+    text-decoration: none;
+    color: #FDFDFD;
+}
