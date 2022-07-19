@@ -1,47 +1,136 @@
-<DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dindin - Educação financeira</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https: //fonts.googleapis.com/css2? family= Mingzat & family= Ubuntu:wght@400;500;700 & display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./main.css">
-    </head>    
-    <body>
-        <header class="header">
-            <img src="./dindin-imagens/logo-header.png" width="244"/>
-            <ul class="nav">
-                <li><a href="cursos.html"target="_self"> CURSOS </a>  </li>
-                <li><a href="blog.html"target="_self"> BLOG </a>  </li>
-                <li><a href="contanto.html"target="_self"> CONTATO </a>  </li>
-            </ul>
-        </header>  
-        <div>
-            <h2>Educação<br>financeira<br>é tudo de bom<br>
-                <h3>Vem comigo que te mostro <br>
-                    por onde começar </h3>       
-        </div>
-        <div>
-           <p id="texto1"> <a href="curso.html">quero saber mais</a></p>
-        </div>
-        <div class="img1">
-            <img src="./dindin-imagens/ilustra-banner.png" width="501px">
-        </div>
-        <div>
-            <img id="imagens2" src="./dindin-imagens/ilustra-poupando.png">
-            <img id="imagens3" src="./dindin-imagens/ilustra-investimento.png">
-            <img id="imagens4" src="./dindin-imagens/ilustra-independencia.png">
-        </div>
-        <div>
-            <h3 id="texto2">Investimento para iniciantes</h3>
-            <h4 id="texto3">&nbsp; investimentos costumam ser aliados poderosos <br>  &nbsp;  para quem busca rendimentos ao longo do tempo.</h4>
-            <h3 id="texto4">Poupando e Rendendo</h3>
-            <h4 id="texto5">Aprender como poupar dinheiro  <br>  &nbsp;é como desenvolver qualquer <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; outro hábito.</h4>
-            <h3 id="texto6">Independência Financeira</h3>
-            <h4 id="texto7">A ideia é ter um equilíbrio financeiro <br>  &nbsp; e trabalhar por prazer ou opção, <br>  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  e não pela necessidade.</h4>
-        </div>    
-    </body>    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dindin</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body class="flex">
+    <header class="background-green flex align just-between wrap">
+        <img src="./dindin-imagens/logo-header.png" alt="Logo-Dindin">
+        <nav>
+            <a href=""><strong>CURSOS</strong></a>
+            <a href=""><strong>BLOG</strong></a>
+            <a href="contato.html"><strong>CONTATO</strong></a>
+        </nav>
+    </header>
+    <main>
+        <section id="banner-logo" class="flex just-evenly align wrap">
+            <div id="text">
+                <p class="letter-pink title"><strong>Educação Financeira <br> é tudo de bom</strong></p>
+                <p>Vem comigo que te mostro por onde começar</p>
+                <a class="letter-pink button-white-pink" href="">quero saber mais</a>
+            </div>
+            <img src="./dindin-imagens/ilustra-banner.png" alt="">
+        </section>
+        <section id="banner-course" class="background-gray flex wrap just-between">
+            <article class="banner-cursos">
+                <img src="./dindin-imagens/ilustra-poupando.png" alt="Poupando">
+                <h2 class="letter-pink">Investimento para Iniciantes</h2>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <a class="letter-white align button-white-pink background-pink" href="">começar agora</a>
+            </article>
+            <article class="banner-cursos">
+                <img src="./dindin-imagens/ilustra-investimento.png" alt="Investindo">
+                <h2 class="letter-pink">Poupando e Rendendo</h2>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <a class="letter-white align button-white-pink background-pink" href="">começar agora</a>
+            </article>
+            <article class="banner-cursos">
+                <img src="./dindin-imagens/ilustra-independencia.png" alt="Independência">
+                <h2 class="letter-pink">Independência Financeira</h2>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <a class="letter-white align button-white-pink background-pink" href="">começar agora</a>
+            </article>
+        </section>
+        <section id="sobre-nos" class="flex wrap">
+            <h2 class="letter-green">O QUE FALAM SOBRE NÓS</h2>
+            <div class="flex wrap just-between">
+                <article class="flex wrap align">
+                    <img src="./dindin-imagens/icon-wally.png" alt="Wally">
+                    <p>
+                        ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.” <br>
+                        Wally, 25
+                    </p>
+                </article>
+                <article class="flex wrap align">
+                    <img src="./dindin-imagens/icon-jaden.png" alt="Jaden">
+                    <p>
+                        ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.” <br>
+                        Jaden Smith, 23
+                        
+                    </p>
+                </article>
+                <article class="flex wrap align">
+                    <img src="./dindin-imagens/icon-whoopi.png" alt="Whoopi">
+                    <p>
+                        ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.” <br>
+                        Whoopi Goldberg, 37
+                        
+                    </p>
+                </article>
+                <article class="flex wrap align">
+                    <img src="./dindin-imagens/icon-jane.png" alt="Janes">
+                    <p>
+                        ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.” <br>
+                        Janes Joplin, 29
+
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section id="conteudo" class="background-gray ">
+            <h2 class="letter-green">MAIS CONTEÚDO PARA VOCÊ</h2>
+            <div class="flex wrap just-between">
+                <article class="content">
+                    <div class="retangulo"></div>
+                    <h3 class="letter-green">Itaque earum rerum</h3>
+                    <p>
+                        hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                    </p>
+                </article>
+                <article class="content">
+                    <div class="retangulo"></div>
+                    <h3 class="letter-green">Itaque earum rerum</h3>
+                    <p>
+                        hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                    </p>
+                </article>
+                <article class="content">
+                    <div class="retangulo"></div>
+                    <h3 class="letter-green">Itaque earum rerum</h3>
+                    <p>
+                        hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                    </p>
+                </article>
+            </div>
+            <nav>
+                <a class=" letter-pink button-white-pink" href="">ver todos os posts</a>
+            </nav> 
+        </section>
+    </main>
+    <footer class="background-green flex align just-between wrap">
+        <img src="./dindin-imagens/logo-footer.png" alt="Logo-Dindin">
+        <nav class="flex">
+            <a href="">cursos</a>
+            <a href="">blog</a>
+            <a href="">contato</a>
+        </nav>
+        <nav class="flex">
+            <a class="border" href="">quero ser prof</a>
+            <a class="border" href="">aqui tem outro link</a>
+        </nav>
+    </footer>
+    
+</body>
 </html>
